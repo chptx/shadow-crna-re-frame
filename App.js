@@ -7,10 +7,9 @@ import { init } from "shadow-cljs/demo.core";
 
 // reagent and others would make this file optional
 
-let Root = init();
-
 export default class App extends React.Component {
   render() {
+      let Root = init();
       return <Root />;
   }
 }
