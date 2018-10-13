@@ -1,0 +1,6 @@
+node_modules/
+.expo/
+npm-debug.*
+target/
+.shadow-cljs/
+yarn.lock

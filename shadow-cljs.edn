@@ -1,0 +1,13 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src"]
+
+ :dependencies
+ [[reagent "0.8.1" :exclusions [cljsjs/react cljsjs/react-dom cljsjs/react-dom-server cljsjs/create-react-class]]
+  [re-frame "0.10.6"]
+  [prismatic/schema "1.1.9"]
+  [cljs-ajax "0.5.3"]]
+
+ :builds
+ {:app {:target :npm-module
+        :output-dir "node_modules/shadow-cljs"}}}
